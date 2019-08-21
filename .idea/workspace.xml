@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8a3b9462-c68c-4bc9-871e-d5572ba4246b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Creature.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Creature.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Entity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/GameCamera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/GameCamera.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/World.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/worlds/world1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/worlds/world1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/worlds/world1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/worlds/world1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/GameCamera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/GameCamera.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/markwilliams/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/World.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
