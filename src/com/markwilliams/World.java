@@ -4,10 +4,13 @@ import java.awt.*;
 
 public class World {
 
+private Handler handler;
     private int width, height;
+    private int spawnX, spawnY;
     private int[][] tiles;
 
-    public World(String path){
+    public World(Handler handler, String path){
+        this.handler = handler;
         loadWorld(path);
 
     }
@@ -16,9 +19,15 @@ public class World {
     }
 
     public void render(Graphics g){
-        for(int y = 0; y < height; y++){
-            for(int x = 0; x < width; x++){
-                getTile(x, y).render(g, x * Tile.TILEWIDTH, y * Tile.TILEHEIGHT);
+        int xStart = (int) Math.max(0, handler.getGameCamera().getxOffset() / Tile.TILEWIDTH);
+        int xEnd = (int) Math.min(width, (handler.getGameCamera().getxOffset() + handler.getWidth()) / Tile.TILEWIDTH + 1);
+        int yStart = (int) Math.max(0, handler.getGameCamera().getyOffset() / Tile.TILEHEIGHT);
+        int yEnd = (int) Math.min(height, (handler.getGameCamera().getyOffset() + handler.getHeight()) / Tile.TILEHEIGHT + 1);
+
+        for(int y = yStart; y < yEnd; y++){
+            for(int x = xStart; x < xEnd; x++){
+                getTile(x, y).render(g, (int) (x * Tile.TILEWIDTH - handler.getGameCamera().getxOffset()),
+                        (int) (y * Tile.TILEHEIGHT - handler.getGameCamera().getyOffset()));
 
             }
         }
@@ -33,13 +42,18 @@ public class World {
     }
 
     private void loadWorld(String path){
-        width = 5;
-        height = 5;
-        tiles = new int[width][height];
+        String file = Utils.loadFileAsString(path);
+        String[] tokens = file.split("\\s+");
+        width = Utils.parseInt(tokens[0]);
+        height = Utils.parseInt(tokens[1]);
+        spawnX = Utils.parseInt(tokens[2]);
+        spawnY = Utils.parseInt(tokens[3]);
 
-        for (int x = 0; x < width; x++){
-            for(int y = 0; y < height; y++){
-                tiles[x][y] = 0;
+        tiles = new int[width][height];
+        for(int y = 0; y < height; y++){
+            for(int x = 0; x < width; x++){
+                tiles[x][y] = Utils.parseInt(tokens[(x + y * width)+ 4]);
+
 
             }
         }

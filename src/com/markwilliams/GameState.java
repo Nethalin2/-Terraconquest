@@ -7,10 +7,13 @@ public class GameState extends State {
     private Player player;
     private World world;
 
-    public GameState(Game game){
-        super(game);
-        player = new Player(game,100,100);
-        world = new World("");
+    public GameState(Handler handler){
+        super(handler);
+        world = new World(handler, "res/worlds/world1.txt");
+        handler.setWorld(world);
+        player = new Player(handler,100,100);
+
+
 
     }
 
@@ -18,6 +21,8 @@ public class GameState extends State {
     public void tick() {
         world.tick();
         player.tick();
+
+
 
     }
 
