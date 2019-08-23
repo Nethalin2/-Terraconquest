@@ -8,13 +8,23 @@ private Handler handler;
     private int width, height;
     private int spawnX, spawnY;
     private int[][] tiles;
+    //Entities
+    private EntityManager entityManager;
 
     public World(Handler handler, String path){
         this.handler = handler;
+        entityManager = new EntityManager(handler, new Player(handler, 200, 200));
+
+        entityManager.addEntity(new Tree(handler, 100, 450));
+        entityManager.addEntity(new Tree(handler, 100, 650));
+
         loadWorld(path);
 
+        entityManager.getPlayer().setX(spawnX);
+        entityManager.getPlayer().setY(spawnY);
     }
     public void tick() {
+        entityManager.tick();
 
     }
 
@@ -31,7 +41,8 @@ private Handler handler;
 
             }
         }
-
+        //Entities
+        entityManager.render(g);
     }
 
     public Tile getTile(int x, int y){
@@ -70,4 +81,7 @@ private Handler handler;
         return height;
     }
 
+    public EntityManager getEntityManager() {
+        return entityManager;
+    }
 }
