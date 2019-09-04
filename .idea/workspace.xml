@@ -5,40 +5,27 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Assets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Assets.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Creature.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Creature.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/DesertTile.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Entity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/EntityManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/EntityManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/EntityManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/EntityManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/GameCamera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/GameCamera.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/GameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/GameState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/GrassTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/GrassTile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Handler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/KeyManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/KeyManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/MenuState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/MenuState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/MouseManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/MouseManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/RockTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/RockTile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Tile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Tile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Tree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/World.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/textures/Sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/textures/test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/textures/tileset.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/worlds/world1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/worlds/world1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/textures/Sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/textures/test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/textures/tileset.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/worlds/world1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/worlds/world1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/markwilliams/Assets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/Assets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/markwilliams/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/DesertTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/DirtTile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/markwilliams/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/EntityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/EntityManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/markwilliams/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/GameState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/GrassTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/GrassTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/Handler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/markwilliams/KeyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/KeyManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/markwilliams/MenuState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/MenuState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/MouseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/MouseManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/markwilliams/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/RockTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/RockTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/markwilliams/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/World.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,6 +40,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -115,7 +103,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

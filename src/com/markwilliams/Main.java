@@ -8,3 +8,5 @@ public class Main {
     }
 
 }
+
+//https://www.youtube.com/watch?v=CZ3TbnXLdW4&list=PLah6faXAgguMnTBs3JnEJY0shAc18XYQZ&index=30 6.06

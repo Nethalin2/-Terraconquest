@@ -10,13 +10,17 @@ private Handler handler;
     private int[][] tiles;
     //Entities
     private EntityManager entityManager;
+    //Item
+    private ItemManager itemManager;
 
     public World(Handler handler, String path){
         this.handler = handler;
         entityManager = new EntityManager(handler, new Player(handler, 200, 200));
+        itemManager = new ItemManager(handler);
 
         entityManager.addEntity(new Tree(handler, 100, 450));
         entityManager.addEntity(new Tree(handler, 100, 650));
+        entityManager.addEntity(new Rock(handler, 100, 850));
 
         loadWorld(path);
 
@@ -25,6 +29,7 @@ private Handler handler;
     }
     public void tick() {
         entityManager.tick();
+        itemManager.tick();
 
     }
 
@@ -41,6 +46,9 @@ private Handler handler;
 
             }
         }
+        //Items
+        itemManager.render(g);
+
         //Entities
         entityManager.render(g);
     }
@@ -83,5 +91,21 @@ private Handler handler;
 
     public EntityManager getEntityManager() {
         return entityManager;
+    }
+
+    public Handler getHandler() {
+        return handler;
+    }
+
+    public void setHandler(Handler handler) {
+        this.handler = handler;
+    }
+
+    public ItemManager getItemManager() {
+        return itemManager;
+    }
+
+    public void setItemManager(ItemManager itemManager) {
+        this.itemManager = itemManager;
     }
 }
