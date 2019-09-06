@@ -1,19 +1,27 @@
 package com.markwilliams;
 
+import java.awt.*;
 import java.awt.image.BufferedImage;
 
 public class Assets {
 
     private static final int width = 32, height = 32;
 
+    public static Font font28;
+
     public static BufferedImage dirt, grass, stone, tree, rock;
     public static BufferedImage wood;
     public static BufferedImage[] player_down, player_up, player_left, player_right;
     public static BufferedImage[] zombie_down, zombie_up, zombie_left, zombie_right;
     public static BufferedImage[] btn_start;
+    public static BufferedImage inventoryScreen;
 
     public static void init(){
+        font28 = FontLoader.loadFont("res/fonts/slkscr.ttf", 28);
+
         SpriteSheet sheet = new SpriteSheet(ImageLoader.loadImage("/textures/sheet.png"));
+
+        inventoryScreen = ImageLoader.loadImage("/textures/inventoryScreen.png");
 
         wood = sheet.crop(width, height, width, height);
 
