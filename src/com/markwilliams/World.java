@@ -22,6 +22,7 @@ private Handler handler;
         entityManager.addEntity(new Tree(handler, 100, 650));
         entityManager.addEntity(new Rock(handler, 100, 850));
 
+
         loadWorld(path);
 
         entityManager.getPlayer().setX(spawnX);

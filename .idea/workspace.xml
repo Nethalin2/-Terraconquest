@@ -3,18 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="8a3b9462-c68c-4bc9-871e-d5572ba4246b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Assets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Assets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/EntityManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/EntityManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/ItemManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/ItemManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/KeyManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/KeyManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Assets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Creature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Entity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/GameCamera.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/GameState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Rock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/markwilliams/World.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/markwilliams/Assets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/Assets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/EntityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/EntityManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/ItemManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/ItemManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/KeyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/KeyManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/markwilliams/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/markwilliams/World.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -15,14 +15,19 @@ public class Assets {
     public static BufferedImage[] zombie_down, zombie_up, zombie_left, zombie_right;
     public static BufferedImage[] btn_start;
     public static BufferedImage inventoryScreen;
+    public static BufferedImage test;
 
     public static void init(){
         font28 = FontLoader.loadFont("res/fonts/slkscr.ttf", 28);
 
         SpriteSheet sheet = new SpriteSheet(ImageLoader.loadImage("/textures/sheet.png"));
+        SpriteSheet sheet2 = new SpriteSheet(ImageLoader.loadImage("/textures/dtiles.png"));
+        SpriteSheet sheet3 = new SpriteSheet(ImageLoader.loadImage("/textures/dtiles2.png"));
 
         inventoryScreen = ImageLoader.loadImage("/textures/inventoryScreen.png");
 
+
+        test = sheet3.crop(0, width * 2, width,height);
         wood = sheet.crop(width, height, width, height);
 
         btn_start = new BufferedImage[2];
